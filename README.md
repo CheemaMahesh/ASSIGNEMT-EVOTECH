@@ -29,7 +29,60 @@
     <li>npm start (to start the react)</li><br/>
   </h6></li><br/>
      <hr/> 
- 
-
   
+</ol><br/>
+
+<hr/>
+<h1>Additional information</h1>
+<h2>Title: MERN Stack Survey Form Submission and Deployment</h2>
+<p>Objective: Create a survey form submission application using the MERN stack that allows users to submit required information. Additionally, deploy the application online to a server.</p>
+<h3>Requirements:</h3>
+<ol>
+  <li>
+    Backend (Node.js, Express, MongoDB):
+    <ul>
+      <li>Set up a Node.js and Express server.</li>
+      <li>Use MongoDB to store survey form submissions.</li>
+      <li>Implement RESTful API endpoints for handling surveys form submissions.</li>
+    </ul>
+  </li>
+  <li>
+    Frontend (React):
+    <ul>
+      <li>Develop a React application to interact with the backend.</li>
+      <li>Design a survey form with fields such as name, gender, nationality, email, phone number, address, and message.</li>
+      <li>Implement form submission functionality, storing the data in the MongoDB database.</li>
+      <li>Design a page to view the data from a list of previous survey form submissions.</li>
+      <li>Allow admin to have a login access to view the data from a list of previous survey form submissions.</li>
+    </ul>
+  </li>
+  <li>
+    Deployment:
+    <ul>
+      <li>Deploy the application online using a platform of your choice (e.g., Heroku, AWS, or any other).</li>
+      <li>Provide clear instructions on how to access the deployed application.</li>
+    </ul>
+  </li>
+  <li>
+    User Interface:
+    <ul>
+      <li>Design a user-friendly interface for the survey form.</li>
+      <li>Provide feedback to users upon successful form submission.</li>
+      <li>Use a responsive design to ensure usability on various devices.</li>
+      <li>Implement validation for form fields.</li>
+      <li>Add basic anti-spam measures to the survey form.</li>
+      <li>Include user notifications for form submission status.</li>
+      <li>Having a good frontend design.</li>
+    </ul>
+  </li>
+  <li>
+    Submission:
+    <ul>
+      <li>Share the source code via a GitHub repository.</li>
+      <li>Provide documentation, including clear instructions for setting up the application locally and accessing the deployed version.</li>
+      <li>Include any additional notes about design decisions or challenges faced during development.</li>
+    </ul>
+  </li>
 </ol>
+<br>
+
