@@ -1,5 +1,5 @@
 <h1>EVOTECH-FULLSTACK-PROJECT</h1>
-<h2><a href='https://evotech-fullstack-project.vercel.app/'>Deployed Link</a></h2><br/>
+<h1><a href='https://evotech-fullstack-project.vercel.app/'>Deployed Link</a></h2><br/>
   <h2>Screen Shots</h2>
   <img src='https://github.com/CheemaMahesh/ASSIGNEMT-EVOTECH/assets/124231713/338d71d9-921d-4bcc-b62f-edf36d77954f'/>
   <img src='https://github.com/CheemaMahesh/ASSIGNEMT-EVOTECH/assets/124231713/7e6d6e90-1415-4462-9bc0-d222e0ce951e'/>
