@@ -5,7 +5,7 @@
   <li>Import Repository </li>
   <li>extract it</li>
   <li>Open it in VS code</li>
-
+    <ul>
      <li> complete the path for server</li><br/>
     <li>Create new mongoDB atlas project and copy the link</li><br/>
     <li>Paste the copied link to CONNECT_URL(in index.js file)</li><br/>
