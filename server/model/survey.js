@@ -1,5 +1,7 @@
 const mongoose=require('mongoose');
 
+
+//MONGOOSES SCHEMA TO ADD DATA TO MONGODB
 const surveySchema=mongoose.Schema({
     name:{
         type:String,

@@ -1,6 +1,8 @@
 import React from 'react';
 import './ResponsePage.css'; // Import your CSS file
 
+
+//===========Response PAGE=============
 const ResponsePage = ({setResponse}) => {
   return (
     <div className="response-container">

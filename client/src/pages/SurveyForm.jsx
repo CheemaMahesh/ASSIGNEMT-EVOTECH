@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './SurveyForm.css'; 
 import {form} from '../api/index';
 
+//=====================================================SURVEY PAGE
 const SurveyForm = ({setResponse,setIsLogin}) => {
   const [name, setName] = useState('');
   const [gender, setGender] = useState('Male');
@@ -34,6 +35,8 @@ const SurveyForm = ({setResponse,setIsLogin}) => {
     };
    
     try{
+
+      //=================API CALL== FOR SUBMITING DATA=================
        const res= await form(formData);
         if(res.data.status === 'success'){
           console.log(res.data.status)

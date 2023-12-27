@@ -4,6 +4,7 @@ const {surveyController,login,getsurveys}=require('../controllers/surveyControll
 
 const router=express.Router();
 
+//==================ROUTES FOR APIS
 router.post('/',surveyController);
 router.get('/login',login);
 router.get('/allsurveys',getsurveys)

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './Login.css';
 import {logins} from '../api';
 
+//==========login form
 const Login = ({setUser,setIsLogin}) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -18,6 +19,8 @@ const Login = ({setUser,setIsLogin}) => {
     e.preventDefault();
     // Here you can perform further actions like validation, API calls, etc.
     console.log("Submitted:", { email, password });
+
+    //===========api call-for login===============
      const newRes=await logins({ email, password });
      if(email === 'admin@email.com' && password === 'SurveyAdmin'){
       setUser(true);

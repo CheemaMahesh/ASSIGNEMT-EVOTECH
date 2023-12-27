@@ -1,5 +1,7 @@
 const Survey=require('../model/survey');
 
+
+//====================CONTROLLER FOR ADD DATA TO THE DATABASE
 module.exports.surveyController=async (req,res)=>{
     try{
         const {name, gender, nationality, email, phoneNumber, address, message}=req.body;
@@ -18,7 +20,7 @@ module.exports.surveyController=async (req,res)=>{
     
 }
 
-
+//===================================CONTROLLER FOR LOGIN
 module.exports.login=async (req,res)=>{
     try{
         const {email,password}=req.body;
@@ -29,6 +31,8 @@ module.exports.login=async (req,res)=>{
     }
 }
 
+
+//=====================CONTROLLER TO GET ALL PREVIOUS RESPONSES
 module.exports.getsurveys=async(req,res)=>{
    try{
     const surveyData=await Survey.find()

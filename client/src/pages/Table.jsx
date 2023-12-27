@@ -2,9 +2,13 @@ import React ,{useEffect, useState} from 'react';
 import './Table.css'; 
 import { allsurveys } from '../api';
 
+
+// ================================ALL RESPONSES PAGE (THAT SHOWS ALL RESPONSES)
 const Table = ({setIsLogin}) => {
     const [data,setData]=useState([]);
         useEffect(()=>{
+
+          //======================API CALL TO GET ALL RESPONSE DATA
            const  callApi = async ()=>{
                 try{
                     const tableData= await allsurveys();

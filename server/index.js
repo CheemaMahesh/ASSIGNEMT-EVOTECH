@@ -3,13 +3,7 @@ const app=express();
 const PORT=8000;
 const cors=require('cors')
 
-async function mm(req,res){
-    try{
-        return res.status(200).json({message:"Hello This is successful"})
-    }catch(err){
-        return res.status(404).json({Message:`Error in mm function ${err}`})
-    }
-}
+
 app.use(express.json({
     limit:'30mb',
     extended:true
@@ -27,11 +21,14 @@ app.use('/',require('./routes'));
 
 const mongoose=require('mongoose');
 
-const CONNECT_URL='mongodb+srv://MAHESH:MAHESHCHEEMA@evotech.dnf4ajd.mongodb.net/?retryWrites=true&w=majority';
+//MONGODB CONNECT URL( You must change it to add data to your MONGODB ATLAs )(Replace your mongodb atlas USERNAME and PASSWORD)
+const CONNECT_URL='mongodb+srv://<USERNAME>:<PASSWORD>@evotech.dnf4ajd.mongodb.net/?retryWrites=true&w=majority';
 
 
 mongoose.set('strictQuery',false);
 
+
+//MONGOOSE CONNECTION AND SERVER INITIALIZATIONS
 mongoose.connect(CONNECT_URL)
 .then(()=> app.listen(PORT,()=>{
     console.log("mongoose connected and server is up running on port",PORT);
