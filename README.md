@@ -1,5 +1,15 @@
 <h1>EVOTECH-FULLSTACK-PROJECT</h1>
 <h2><a href='https://evotech-fullstack-project.vercel.app/'>Deployed Link</a></h2><br/>
+  <h2>Screen Shots</h2>
+  <img src='https://github.com/CheemaMahesh/ASSIGNEMT-EVOTECH/assets/124231713/338d71d9-921d-4bcc-b62f-edf36d77954f'/>
+
+<img src='https://github.com/CheemaMahesh/ASSIGNEMT-EVOTECH/assets/124231713/de3f7417-e205-4861-8438-d6e6a4bfa066'/>
+  <img src='https://github.com/CheemaMahesh/ASSIGNEMT-EVOTECH/assets/124231713/5f24c125-de8a-41fe-9fde-549d232446a8'/>
+
+  <img src='https://github.com/CheemaMahesh/ASSIGNEMT-EVOTECH/assets/124231713/7e6d6e90-1415-4462-9bc0-d222e0ce951e'/>
+
+
+
 <ol>
   <h5>Instructions</h5>
   <li>Import Repository </li>
